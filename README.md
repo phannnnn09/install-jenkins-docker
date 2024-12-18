@@ -27,7 +27,7 @@ docker build -t my-jenkins .
 Start Jenkins:
 
 ```
-docker compose up -d
+docker build -t my-jenkins .
 ```
 
 ## Step 4
@@ -39,7 +39,7 @@ Open Jenkins by going to: [http://localhost:8080/](http://localhost:8080/) and f
 If you wish to stop Jenkins and get back to it later, run:
 
 ```
-docker compose down
+docker build -t my-jenkins .
 ```
 
 If you wish to start Jenkins again later, just run the same comand from Step 3.
